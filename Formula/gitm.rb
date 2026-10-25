@@ -4,30 +4,30 @@ class Gitm < Formula
   version "1.1.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://cnb.cool/dlovely-public/git-manager/-/releases/download/v1.1.0/git-manager-aarch64-apple-darwin.tar.gz"
-      sha256 "02cb0fb0eec7bf3f100626d57409304f810e152ef31746a694c06112e4263594"
-      mirror "https://github.com/dlovely-public/git-manager/releases/download/v1.1.0/git-manager-aarch64-apple-darwin.tar.gz"
-      sha256 "02cb0fb0eec7bf3f100626d57409304f810e152ef31746a694c06112e4263594"
+      url "https://cnb.cool/dlovely-public/git-manager/-/releases/download/v1.1.0/gitm-aarch64-apple-darwin.tar.gz"
+      sha256 "24e5eee9b104ff5e448bc71e123defa6b9fe2623d70bffddf6593b262b1a2ffe"
+      mirror "https://github.com/dlovely-public/git-manager/releases/download/v1.1.0/gitm-aarch64-apple-darwin.tar.gz"
+      sha256 "24e5eee9b104ff5e448bc71e123defa6b9fe2623d70bffddf6593b262b1a2ffe"
     end
     if Hardware::CPU.intel?
-      url "https://cnb.cool/dlovely-public/git-manager/-/releases/download/v1.1.0/git-manager-x86_64-apple-darwin.tar.gz"
-      sha256 "62eccaf98a14a8f903eb49f2cfc84756889124533e40bae063e14c69a72a417f"
-      mirror "https://github.com/dlovely-public/git-manager/releases/download/v1.1.0/git-manager-x86_64-apple-darwin.tar.gz"
-      sha256 "62eccaf98a14a8f903eb49f2cfc84756889124533e40bae063e14c69a72a417f"
+      url "https://cnb.cool/dlovely-public/git-manager/-/releases/download/v1.1.0/gitm-x86_64-apple-darwin.tar.gz"
+      sha256 "c7c3bfb1c6e9d1bf45a4509aba364b6c796c8de2e7b4ef0605a74146460d88ac"
+      mirror "https://github.com/dlovely-public/git-manager/releases/download/v1.1.0/gitm-x86_64-apple-darwin.tar.gz"
+      sha256 "c7c3bfb1c6e9d1bf45a4509aba364b6c796c8de2e7b4ef0605a74146460d88ac"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://cnb.cool/dlovely-public/git-manager/-/releases/download/v1.1.0/git-manager-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3e751ffced6cc753c72bce0fed6063334388fee44eb11d3ec8e1515d2555687a"
-      mirror "https://github.com/dlovely-public/git-manager/releases/download/v1.1.0/git-manager-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3e751ffced6cc753c72bce0fed6063334388fee44eb11d3ec8e1515d2555687a"
+      url "https://cnb.cool/dlovely-public/git-manager/-/releases/download/v1.1.0/gitm-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "88fde0cc0e3c920c4c3b578720e09d1962002a9ae999e6448b72c1eec6388be3"
+      mirror "https://github.com/dlovely-public/git-manager/releases/download/v1.1.0/gitm-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "88fde0cc0e3c920c4c3b578720e09d1962002a9ae999e6448b72c1eec6388be3"
     end
     if Hardware::CPU.intel?
-      url "https://cnb.cool/dlovely-public/git-manager/-/releases/download/v1.1.0/git-manager-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "36c6fc208379dcb7b6c0322145ffaf3611d6b3bc1089b979a38282f672923433"
-      mirror "https://github.com/dlovely-public/git-manager/releases/download/v1.1.0/git-manager-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "36c6fc208379dcb7b6c0322145ffaf3611d6b3bc1089b979a38282f672923433"
+      url "https://cnb.cool/dlovely-public/git-manager/-/releases/download/v1.1.0/gitm-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "758a5260b3e556dd85ee8c1d454d7a79131dcbab2ab174fc9e4534ff29408a89"
+      mirror "https://github.com/dlovely-public/git-manager/releases/download/v1.1.0/gitm-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "758a5260b3e556dd85ee8c1d454d7a79131dcbab2ab174fc9e4534ff29408a89"
     end
   end
   license "MIT"
